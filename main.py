@@ -20,8 +20,6 @@ print(data)
 print(data.columns)
 print(data.info())
 
-# if data.columns[-2] or data.columns[-1] == 1:
-#     print("Transaction is Fraud")
 print(data['isFraud'].value_counts())
 legit = data[data.isFraud == 0]
 fraud = data[data.isFraud == 1]
