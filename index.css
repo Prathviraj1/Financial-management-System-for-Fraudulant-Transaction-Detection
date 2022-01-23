@@ -1,0 +1,97 @@
+.jumbotron {
+    background-color: rgb(45, 131, 165);
+}
+
+.HomeBackground {
+    margin-left: 350px;
+}
+
+.nav-link {
+    color: white;
+}
+
+li {
+    color: #fff;
+    position: relative;
+}
+
+.aboutusimage {
+    margin-left: 850px;
+    margin-bottom: 100px;
+}
+
+li:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+li:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+@media screen and (max-height: 300px) {
+    ul {
+        margin-top: 40px;
+    }
+}
+
+.Transaction,
+.money {
+    margin-left: 850px;
+    padding: 20px;
+    width: 500px;
+}
+
+form .btn {
+    background-color: rgb(23, 140, 243);
+    margin-bottom: 34px;
+    margin-right: 6px;
+    width: 156px;
+    height: 40px;
+}
+
+.pay {
+    justify-content: center;
+}
+
+footer {
+    background-color: rgb(45, 131, 165);
+    height: 310px;
+    padding: 50px 0px 50px 0px;
+}
+
+footer a,
+footer p {
+    color: white;
+    padding: 5px;
+}
+
+.icon {
+    background-color: white;
+}
+
+.love {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+.me {
+    text-decoration-color: #fff;
+}
+
+.soon {
+    padding: 50px;
+    text-align: center;
+    font-family: yellowtail;
+    color: red;
+}

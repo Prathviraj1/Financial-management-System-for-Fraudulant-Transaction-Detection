@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<br><br><br><br><br>
+<center><nav style="height: 550px; width: 580px; font-size: 15px;">
+		<fieldset style="background-color: #ddd;">
+			<legend><big><h3>SIGN IN</h3></big></legend>
+<style>
+ body {
+     background-image:url("save3.jpg");
+     background-repeat: no-repeat;
+     background-size: 1600px 800px;
+      }
+input[type=submit]{
+	width: 15%;
+height:43px;
+border-radius:140px;
+	background:black;
+	cursor:pointer;
+	font-size:18px;
+	font-weight:bold;
+	color:white;
+}
+input[type=submit]:hover{
+	background: green;
+}
+</style>
+<script type="text/javascript">function CanSubmit() {
+            
+          
+
+        
+
+        
+            var pwd = document.forms[0].txtPassword.value
+            var cpwd = document.forms[0].txtConfirmPassword.value
+            if (pwd == cpwd){
+              if(pwd=="")
+                {
+		alert("Please enter your username and password");
+                }
+else
+                alert("Logged in successfully");
+                return true;
+}
+            else {
+                alert("Please make sure that Password and Confirm Password are Same");
+                return false;
+            }
+}
+    </script>
+
+<form action="" method="post" onsubmit ="return CanSubmit()">
+<center> 
+<marquee><h3>PLEASE ENTER YOUR DETAILS AND CLICK ON SUBMIT BUTTON</h3></marquee>
+<br><br><br><br>User ID:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text"name="user_id"/> <br /><br><br>
+Password: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password" name="txtPassword" value="" /> <br /><br><br>
+ConfirmPassword:&nbsp <input type="password" name="txtConfirmPassword" value="" /> <br /><br><br>
+<input type="submit" name="btnSubmit" value="Submit" /></center>
+</head>
+
+</form>
+</html>
